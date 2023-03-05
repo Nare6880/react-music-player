@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import "./App.css";
 import Playlists from "./components/Playlists";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowsUpDownLeftRight } from "@fortawesome/free-solid-svg-icons";
+
 import "./App.css";
 const defaultComponentList = [
 	{ type: "Playlists", id: "0" },
@@ -35,7 +38,16 @@ function App() {
 									{(provided) => (
 										<div ref={provided.innerRef} {...provided.draggableProps}>
 											<div className="component-header">
-												<h2 className="component-header-text">Type</h2>
+												<h2 className="component-header-text">{type}</h2>
+												<div
+													className="component-header-decoration"
+													{...provided.dragHandleProps}
+												>
+													<FontAwesomeIcon
+														icon={faArrowsUpDownLeftRight}
+														size="2x"
+													/>
+												</div>
 											</div>
 											<Playlists></Playlists>
 										</div>
