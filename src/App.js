@@ -2,7 +2,13 @@ import React, { useState } from "react";
 import "./App.css";
 import Playlists from "./components/Playlists";
 import Songs from "./components/Songs";
-import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
+import {
+	GridContextProvider,
+	GridDropZone,
+	GridItem,
+	swap,
+} from "react-grid-dnd";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowsUpDownLeftRight } from "@fortawesome/free-solid-svg-icons";
 
@@ -28,53 +34,41 @@ function App() {
 	}
 	return (
 		<>
-			<DragDropContext onDragEnd={handleOnDragEnd}>
-				<Droppable droppableId="components">
-					{(provided, snapshot) => (
-						<ul
-							className="component-2col"
-							{...provided.droppableProps}
-							style={{
-								backgroundColor: snapshot.isDraggingOver ? "blue" : "grey",
-							}}
-							ref={provided.innerRef}
-						>
-							{components.map(({ type, id }, index) => {
-								return (
-									<Draggable key={id} draggableId={id} index={index}>
-										{(provided) => (
-											<div
-												ref={provided.innerRef}
-												{...provided.draggableProps}
-												className="component-container"
-											>
-												<div className="component-header">
-													<h2 className="component-header-text">
-														{type} {id}
-													</h2>
-													<div
-														className="component-header-decoration"
-														{...provided.dragHandleProps}
-													>
-														<FontAwesomeIcon
-															icon={faArrowsUpDownLeftRight}
-															size="2x"
-														/>
-													</div>
-												</div>
-												{getComponent({ type })}
-											</div>
-										)}
-									</Draggable>
-								);
-							})}
-							{provided.placeholder}
-						</ul>
-					)}
-				</Droppable>
-			</DragDropContext>
+			<GridContextProvider onChange={onChange}>
+				<GridDropZone
+					id="components"
+					boxesPerRow={3}
+					rowHeight={400}
+					style={{ height: "800px" }}
+				>
+					{components.map(({ type, id }, index) => {
+						return (
+							<GridItem key={id}>
+								<div className="component-container">
+									<div className="component-header">
+										<h2 className="component-header-text">
+											{type} {id}
+										</h2>
+										<div className="component-header-decoration">
+											<FontAwesomeIcon
+												icon={faArrowsUpDownLeftRight}
+												size="2x"
+											/>
+										</div>
+									</div>
+									{getComponent({ type })}
+								</div>
+							</GridItem>
+						);
+					})}
+				</GridDropZone>
+			</GridContextProvider>
 		</>
 	);
+	function onChange(sourceId, sourceIndex, targetIndex, targetId) {
+		const nextState = swap(components, sourceIndex, targetIndex);
+		updateComponents(nextState);
+	}
 	function getComponent(object) {
 		switch (object.type) {
 			case "Playlists":
