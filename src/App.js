@@ -22,6 +22,8 @@ const defaultComponentList = [
 	{ type: "Playlists", id: "5" },
 ];
 function App() {
+	const [Customize, updateCustomize] = useState(false);
+	console.log(Customize);
 	const [components, updateComponents] = useState(defaultComponentList);
 	function handleOnDragEnd(result) {
 		if (!result.destination) return;
@@ -32,17 +34,23 @@ function App() {
 
 		updateComponents(items);
 	}
-	return (
-		<>
+	return Customize ? (
+		<div>
 			<GridContextProvider onChange={onChange}>
+				<button
+					style={{ backgroundColor: Customize ? "Green" : "Red" }}
+					onClick={() => updateCustomize(!Customize)}
+				>
+					Customize
+				</button>
 				<GridDropZone
 					id="components"
-					boxesPerRow={3}
+					boxesPerRow={1}
 					rowHeight={400}
-					style={{ height: "800px" }}
+					style={{ height: "2000px" }}
 				>
 					{components.map(({ type, id }, index) => {
-						return (
+						return Customize ? (
 							<GridItem key={id}>
 								<div className="component-container">
 									<div className="component-header">
@@ -59,11 +67,52 @@ function App() {
 									{getComponent({ type })}
 								</div>
 							</GridItem>
+						) : (
+							<GridItem key={id} onMouseDown={(e) => e.stopPropagation()}>
+								<div className="component-container">
+									<div className="component-header">
+										<h2 className="component-header-text">
+											{type} {id}
+										</h2>
+										{
+											<div
+												className="component-header-decoration"
+												style={{ hidden: true }}
+											></div>
+										}
+									</div>
+									{getComponent({ type })}
+								</div>
+							</GridItem>
 						);
 					})}
 				</GridDropZone>
 			</GridContextProvider>
-		</>
+		</div>
+	) : (
+		<div>
+			<button
+				style={{ backgroundColor: Customize ? "Green" : "Red" }}
+				onClick={() => updateCustomize(!Customize)}
+			>
+				Customize
+			</button>
+			{components.map(({ type, id }, index) => {
+				return (
+					<div className="component-container">
+						<div className="component-header">
+							<h2 className="component-header-text">
+								{type} {id}
+							</h2>
+							<div className="component-header-decoration">
+								<FontAwesomeIcon icon={faArrowsUpDownLeftRight} size="2x" />
+							</div>
+						</div>
+						{getComponent({ type })}
+					</div>
+				);
+			})}
+		</div>
 	);
 	function onChange(sourceId, sourceIndex, targetIndex, targetId) {
 		const nextState = swap(components, sourceIndex, targetIndex);

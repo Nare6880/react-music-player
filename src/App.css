@@ -5,6 +5,12 @@ body {
 		sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 img {
 	height: 50px;
@@ -26,6 +32,17 @@ li {
 	background-color: rgb(85, 85, 85);
 	color: white;
 	margin-bottom: 2px;
+	border-bottom: 2px solid black;
+}
+.song {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	width: 100%;
+	background-color: rgb(85, 85, 85);
+	color: white;
+	margin-bottom: 2px;
+	border-bottom: 2px solid black;
 }
 body {
 	background-color: black;
