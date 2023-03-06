@@ -13,6 +13,11 @@ ul {
 	background-color: black;
 	padding-left: 0em;
 }
+.component-2col {
+	columns: 2;
+	-webkit-columns: 2;
+	-moz-columns: 2;
+}
 li {
 	display: flex;
 	flex-direction: row;
@@ -34,14 +39,18 @@ body {
 }
 .component-header {
 	position: relative;
-	height: 3em;
+	height: 2em;
 }
 .component-header-text {
 	position: absolute;
 	padding: 0;
 	margin: 0;
-	top: 20px;
+	top: 0px;
 	left: 0;
+}
+.component-container {
+	max-height: 400px;
+	overflow: scroll;
 }
 .fa-2x {
 	font-size: 1.8em;
@@ -49,7 +58,7 @@ body {
 .component-header-decoration {
 	position: absolute;
 	right: 0;
-	top: 25px;
+	top: 2px;
 }
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
