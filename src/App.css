@@ -72,7 +72,28 @@ body {
 	gap: 10px;
 	margin: 10px;
 }
-
+.division {
+	width: 10px;
+	height: 100%;
+	cursor: ew-resize;
+	flex: 0 0 auto;
+}
+.division::before {
+	content: " ";
+	display: block;
+	width: 3px;
+	height: 100%;
+	background-color: grey;
+	margin: 0 auto;
+}
+.flex-2 {
+	display: flex;
+	gap: 5px;
+}
+.flex-3 {
+	display: flex;
+	gap: 5px;
+}
 .Grid-3 {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;

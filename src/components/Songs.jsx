@@ -3,7 +3,6 @@ import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 import data from "./Data/songData.json";
 
 function Songs({ dragDisabled }) {
-	console.log(data);
 	const [songs, updateSongs] = useState(data);
 	function handleOnDragEnd(result) {
 		if (!result.destination) return;
