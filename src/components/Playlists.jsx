@@ -24,7 +24,7 @@ const finalPlaylist = [
 		thumb: "https://source.unsplash.com/random?sig=23",
 	},
 ];
-function Playlists({ idEl, dragHandle }) {
+function Playlists({ idEl, dragDisabled }) {
 	const [playlists, updatePlaylists] = useState(finalPlaylist);
 	function handleOnDragEnd(result) {
 		if (!result.destination) return;
@@ -47,7 +47,12 @@ function Playlists({ idEl, dragHandle }) {
 						>
 							{playlists.map(({ id, name, thumb }, index) => {
 								return (
-									<Draggable key={id} draggableId={id} index={index}>
+									<Draggable
+										key={id}
+										draggableId={id}
+										index={index}
+										isDragDisabled={dragDisabled}
+									>
 										{(provided) => (
 											<li
 												ref={provided.innerRef}

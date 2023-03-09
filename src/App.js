@@ -23,6 +23,7 @@ const defaultComponentList = [
 ];
 function App() {
 	const [Customize, updateCustomize] = useState(false);
+	const [columns, updateColumns] = useState(3);
 	console.log(Customize);
 	const [components, updateComponents] = useState(defaultComponentList);
 	function handleOnDragEnd(result) {
@@ -43,9 +44,27 @@ function App() {
 				>
 					Customize
 				</button>
+				<button
+					style={{ backgroundColor: columns === 1 ? "Green" : "Red" }}
+					onClick={() => updateColumns(1)}
+				>
+					1Col
+				</button>
+				<button
+					style={{ backgroundColor: columns === 2 ? "Green" : "Red" }}
+					onClick={() => updateColumns(2)}
+				>
+					2Col
+				</button>
+				<button
+					style={{ backgroundColor: columns === 3 ? "Green" : "Red" }}
+					onClick={() => updateColumns(3)}
+				>
+					3Col
+				</button>
 				<GridDropZone
 					id="components"
-					boxesPerRow={1}
+					boxesPerRow={columns}
 					rowHeight={400}
 					style={{ height: "2000px" }}
 				>
@@ -74,12 +93,7 @@ function App() {
 										<h2 className="component-header-text">
 											{type} {id}
 										</h2>
-										{
-											<div
-												className="component-header-decoration"
-												style={{ hidden: true }}
-											></div>
-										}
+										{<div className="component-header-decoration">yeet</div>}
 									</div>
 									{getComponent({ type })}
 								</div>
@@ -97,21 +111,27 @@ function App() {
 			>
 				Customize
 			</button>
-			{components.map(({ type, id }, index) => {
-				return (
-					<div className="component-container">
-						<div className="component-header">
-							<h2 className="component-header-text">
-								{type} {id}
-							</h2>
-							<div className="component-header-decoration">
-								<FontAwesomeIcon icon={faArrowsUpDownLeftRight} size="2x" />
+			<div
+				className={
+					columns === 1 ? "Grid-1" : columns === 2 ? "Grid-2" : "Grid-3"
+				}
+			>
+				{components.map(({ type, id }, index) => {
+					return (
+						<>
+							<div className="component-container">
+								<div className="component-header">
+									<h2 className="component-header-text">
+										{type} {id}
+									</h2>
+									<div className="component-header-decoration"></div>
+								</div>
+								{getComponent({ type })}
 							</div>
-						</div>
-						{getComponent({ type })}
-					</div>
-				);
-			})}
+						</>
+					);
+				})}
+			</div>
 		</div>
 	);
 	function onChange(sourceId, sourceIndex, targetIndex, targetId) {
@@ -121,9 +141,9 @@ function App() {
 	function getComponent(object) {
 		switch (object.type) {
 			case "Playlists":
-				return <Playlists></Playlists>;
+				return <Playlists dragDisabled={Customize}></Playlists>;
 			case "Songs":
-				return <Songs></Songs>;
+				return <Songs dragDisabled={Customize}></Songs>;
 				break;
 		}
 	}

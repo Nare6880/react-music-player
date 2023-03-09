@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 import data from "./Data/songData.json";
 
-function Songs() {
+function Songs({ dragDisabled }) {
 	console.log(data);
 	const [songs, updateSongs] = useState(data);
 	function handleOnDragEnd(result) {
@@ -30,6 +30,7 @@ function Songs() {
 										key={index}
 										draggableId={index.toString()}
 										index={index}
+										isDragDisabled={dragDisabled}
 									>
 										{(provided) => (
 											<li
