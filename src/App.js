@@ -40,7 +40,7 @@ function App() {
 		isHandlerDragging = false;
 	};
 	const [Customize, updateCustomize] = useState(false);
-	const [columns, updateColumns] = useState(1);
+	const [columns, updateColumns] = useState(2);
 	const [components, updateComponents] = useState(defaultComponentList);
 	const [components2, updateComponents2] = useState(getRowArr(components, 2));
 	const [components3, updateComponents3] = useState(getRowArr(components, 3));
