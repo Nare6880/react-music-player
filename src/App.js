@@ -14,7 +14,7 @@ import { faArrowsUpDownLeftRight } from "@fortawesome/free-solid-svg-icons";
 
 import "./App.css";
 import Rowx2 from "./components/Rowx2";
-import Rowx3 from "./components/Rowx2";
+import Rowx3 from "./components/Rowx3";
 import Row from "./components/Row";
 const defaultComponentList = [
 	{ type: "Playlists", id: "0" },
@@ -89,7 +89,7 @@ function App() {
 					{components.map(({ type, id }, index) => {
 						return (
 							<GridItem key={id}>
-								<div className="component-container">
+								<div className="component-container moveable">
 									<div className="component-header">
 										<h2 className="component-header-text">
 											{type} {id}

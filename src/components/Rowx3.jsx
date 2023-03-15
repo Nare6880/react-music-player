@@ -7,7 +7,7 @@ function Rowx2({ Customize, Row }) {
 			{Row.map(({ type, id }, index) => {
 				return (
 					<>
-						<div className="component-container">
+						<div className="component-container" style={{ width: "100%" }}>
 							<div className="component-header">
 								<h2 className="component-header-text">
 									{type} {id}
@@ -16,16 +16,6 @@ function Rowx2({ Customize, Row }) {
 							</div>
 							{getComponent({ type })}
 						</div>
-						{index === 0 && (
-							<div
-								className="division"
-								onClick={() =>
-									function () {
-										console.log("clicked");
-									}
-								}
-							></div>
-						)}
 					</>
 				);
 			})}

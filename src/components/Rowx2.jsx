@@ -4,8 +4,8 @@ import Songs from "./Songs";
 import useScript from "../hooks/useScript";
 function Rowx2({ Customize, Row }) {
 	const [divisionClicked, setDivisionClicked] = useState(false);
-	const [widthA, setWidthA] = useState(800);
 	const [width, setWidth] = useState(0);
+	const [widthA, setWidthA] = useState(0);
 	const flexRef = useRef(null);
 	useEffect(() => {
 		setWidth(flexRef.current.getBoundingClientRect().width);
@@ -45,11 +45,15 @@ function Rowx2({ Customize, Row }) {
 							style={
 								index === 0
 									? {
-											width: `${widthA}px`,
+											width: `${widthA === 0 ? `100%` : `${widthA}px`}`,
 											flexGrow: "0",
 											backgroundColor: "blue",
 									  }
-									: { width: `${width - widthA - 20}px` }
+									: {
+											width: `${
+												widthA === 0 ? `100%` : `${width - widthA - 20}px`
+											}`,
+									  }
 							}
 						>
 							<div className="component-header">
@@ -60,7 +64,7 @@ function Rowx2({ Customize, Row }) {
 							</div>
 							{getComponent({ type })}
 						</div>
-						{index === 0 && (
+						{index === 0 && index !== Row.length - 1 && (
 							<div
 								className="division"
 								onMouseDown={function (e) {
