@@ -15,6 +15,29 @@ body {
 	-ms-user-select: none;
 	user-select: none;
 }
+.col-icon {
+	aspect-ratio: 1/1;
+	height: 30px;
+}
+.fa-resize {
+	font-size: 30px;
+}
+.align-left {
+	display: flex;
+	justify-content: end;
+}
+.customizeButton {
+	width: 40px;
+	height: 40px;
+}
+.menu-bar {
+	display: flex;
+	height: 30px;
+	width: 100%;
+	justify-content: center;
+	gap: 10px;
+	font-size: 1.5rem;
+}
 img {
 	height: 50px;
 }
