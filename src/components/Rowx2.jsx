@@ -9,6 +9,13 @@ function Rowx2({ Customize, Row }) {
 	const flexRef = useRef(null);
 	useEffect(() => {
 		setWidth(flexRef.current.getBoundingClientRect().width);
+		const handleWindowResize = () => {
+			setWidth(window.innerWidth);
+		};
+		window.addEventListener("resize", handleWindowResize);
+		return () => {
+			window.removeEventListener("resize", handleWindowResize);
+		};
 	}, []);
 	console.log(width);
 	return (
