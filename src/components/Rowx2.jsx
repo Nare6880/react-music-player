@@ -47,7 +47,6 @@ function Rowx2({ Customize, Row }) {
 									? {
 											width: `${widthA === 0 ? `100%` : `${widthA}px`}`,
 											flexGrow: "0",
-											backgroundColor: "blue",
 									  }
 									: {
 											width: `${
