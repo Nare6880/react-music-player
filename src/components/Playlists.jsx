@@ -1,31 +1,12 @@
 import React, { useState } from "react";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
-
+import finalPlaylist from "./Data/playlists.json";
 import "../App.css";
-const finalPlaylist = [
-	{
-		id: "0",
-		name: "chill",
-		thumb: "https://source.unsplash.com/random?sig=127",
-	},
-	{
-		id: "1",
-		name: "Electric",
-		thumb: "https://source.unsplash.com/random?sig=99",
-	},
-	{
-		id: "2",
-		name: "rap",
-		thumb: "https://source.unsplash.com/random?sig=0",
-	},
-	{
-		id: "3",
-		name: "funky",
-		thumb: "https://source.unsplash.com/random?sig=23",
-	},
-];
-function Playlists({ idEl, dragDisabled }) {
-	const [playlists, updatePlaylists] = useState(finalPlaylist);
+import Playlist from "./Playlist";
+function Playlists({ idEl, dragDisabled, setContext, setPlaylist }) {
+	const [playlists, updatePlaylists] = useState(
+		Array.from(finalPlaylist.playlists)
+	);
 	function handleOnDragEnd(result) {
 		if (!result.destination) return;
 
@@ -35,8 +16,12 @@ function Playlists({ idEl, dragDisabled }) {
 
 		updatePlaylists(items);
 	}
+
 	return (
 		<div>
+			<div className="component-header">
+				<h2 className="component-header-text">Your Playlists</h2>
+			</div>
 			<DragDropContext onDragEnd={handleOnDragEnd}>
 				<Droppable droppableId="songs">
 					{(provided) => (
@@ -45,13 +30,13 @@ function Playlists({ idEl, dragDisabled }) {
 							{...provided.droppableProps}
 							ref={provided.innerRef}
 						>
-							{playlists.map(({ id, name, thumb }, index) => {
+							{playlists.map(({ name, image, playlistKey }, index) => {
 								return (
 									<Draggable
-										key={id}
-										draggableId={id}
+										key={index.toString()}
+										draggableId={index.toString()}
 										index={index}
-										isDragDisabled={dragDisabled}
+										isDragDisabled={false}
 									>
 										{(provided) => (
 											<li
@@ -60,9 +45,17 @@ function Playlists({ idEl, dragDisabled }) {
 												{...provided.dragHandleProps}
 											>
 												<div>
-													<img src={thumb} alt={`${name} Thumb`} />
+													<img src={image} alt={`${name} Thumb`} />
 												</div>
-												<p>{name}</p>
+												<p
+													className="playlistLink"
+													onClick={() => {
+														setContext("Playlist");
+														setPlaylist(playlistKey);
+													}}
+												>
+													{name}
+												</p>
 											</li>
 										)}
 									</Draggable>

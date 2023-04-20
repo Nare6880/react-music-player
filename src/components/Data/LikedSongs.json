@@ -1,0 +1,402 @@
+[
+        {
+                "number": "1",
+                "image": "https://i.scdn.co/image/ab67616d00004851eecd7ea350b344ae64f7a4ff",
+                "title": "Eyes Closed",
+                "artist": "Ed Sheeran",
+                "album": "Eyes Closed",
+                "duration": "3:14"
+        },
+        {
+                "number": "2",
+                "image": "https://i.scdn.co/image/ab67616d00004851f429549123dbe8552764ba1d",
+                "title": "Flowers",
+                "artist": "Miley Cyrus",
+                "album": "Flowers",
+                "duration": "3:20"
+        },
+        {
+                "number": "3",
+                "image": "https://i.scdn.co/image/ab67616d0000485142c5ba689b2e7cbc208a8fa7",
+                "title": "Boy's a liar Pt. 2",
+                "artist": "PinkPantheress, Ice Spice",
+                "album": "Boy's a liar Pt. 2",
+                "duration": "2:11"
+        },
+        {
+                "number": "4",
+                "image": "https://i.scdn.co/image/ab67616d000048518de12a274f6e1df6634f57ec",
+                "title": "Die For You - Remix",
+                "artist": "The Weeknd, Ariana Grande",
+                "album": "Die For You (Remix)",
+                "duration": "3:52"
+        },
+        {
+                "number": "5",
+                "image": "https://i.scdn.co/image/ab67616d000048510c471c36970b9406233842a5",
+                "title": "Kill Bill",
+                "artist": "SZA",
+                "album": "SOS",
+                "duration": "2:33"
+        },
+        {
+                "number": "6",
+                "image": "https://i.scdn.co/image/ab67616d000048511cf7cf4446b496525e423465",
+                "title": "Players",
+                "artist": "Coi Leray",
+                "album": "Players",
+                "duration": "2:19"
+        },
+        {
+                "number": "7",
+                "image": "https://i.scdn.co/image/ab67616d00004851cdce39ecb633bea9ef7705a6",
+                "title": "Creepin' (with The Weeknd & 21 Savage)",
+                "artist": "Metro Boomin, The Weeknd, 21 Savage",
+                "album": "HEROES & VILLAINS",
+                "duration": "3:41"
+        },
+        {
+                "number": "8",
+                "image": "https://i.scdn.co/image/ab67616d00004851025dacb513f2b67e6432d56e",
+                "title": "Escapism.",
+                "artist": "RAYE, 070 Shake",
+                "album": "Escapism. / The Thrill Is Gone.",
+                "duration": "4:32"
+        },
+        {
+                "number": "9",
+                "image": "https://i.scdn.co/image/ab67616d000048514d6cf0d0d5e32ca4fa3a59e1",
+                "title": "BESO",
+                "artist": "ROSALÍA, Rauw Alejandro",
+                "album": "RR",
+                "duration": "3:14"
+        },
+        {
+                "number": "10",
+                "image": "https://i.scdn.co/image/ab67616d00004851a3a7f38ea2033aa501afd4cf",
+                "title": "Calm Down (with Selena Gomez)",
+                "artist": "Rema, Selena Gomez",
+                "album": "Calm Down (with Selena Gomez)",
+                "duration": "3:59"
+        },
+        {
+                "number": "11",
+                "image": "https://i.scdn.co/image/ab67616d00004851b46f74097655d7f353caab14",
+                "title": "As It Was",
+                "artist": "Harry Styles",
+                "album": "As It Was",
+                "duration": "2:47"
+        },
+        {
+                "number": "12",
+                "image": "https://i.scdn.co/image/ab67616d00004851d370fdc4dbc47778b9b667c3",
+                "title": "ceilings",
+                "artist": "Lizzy McAlpine",
+                "album": "five seconds flat",
+                "duration": "3:02"
+        },
+        {
+                "number": "13",
+                "image": "https://i.scdn.co/image/ab67616d000048512b6d78c5a3f6247aa997b812",
+                "title": "Shakira: Bzrp Music Sessions, Vol. 53",
+                "artist": "Bizarrap, Shakira",
+                "album": "Shakira: Bzrp Music Sessions, Vol. 53",
+                "duration": "3:34"
+        },
+        {
+                "number": "14",
+                "image": "https://i.scdn.co/image/ab67616d00004851bb54dde68cd23e2a268ae0f5",
+                "title": "Anti-Hero",
+                "artist": "Taylor Swift",
+                "album": "Midnights",
+                "duration": "3:20"
+        },
+        {
+                "number": "15",
+                "image": "https://i.scdn.co/image/ab67616d00004851c58e22815048f8dfb1aa8bd0",
+                "title": "Miracle (with Ellie Goulding)",
+                "artist": "Calvin Harris, Ellie Goulding",
+                "album": "Miracle (with Ellie Goulding)",
+                "duration": "3:06"
+        },
+        {
+                "number": "16",
+                "image": "https://i.scdn.co/image/ab67616d0000485182de1ca074ae63cb18fce335",
+                "title": "TQG",
+                "artist": "KAROL G, Shakira",
+                "album": "MAÑANA SERÁ BONITO",
+                "duration": "3:17"
+        },
+        {
+                "number": "17",
+                "image": "https://i.scdn.co/image/ab67616d00004851a935e4689f15953311772cc4",
+                "title": "Unholy (feat. Kim Petras)",
+                "artist": "Sam Smith, Kim Petras",
+                "album": "Unholy (feat. Kim Petras)",
+                "duration": "2:36"
+        },
+        {
+                "number": "18",
+                "image": "https://i.scdn.co/image/ab67616d00004851134d5ec418af466391502905",
+                "title": "golden hour",
+                "artist": "JVKE",
+                "album": "golden hour",
+                "duration": "3:29"
+        },
+        {
+                "number": "19",
+                "image": "https://i.scdn.co/image/ab67616d00004851fc342f95f117d48dbdde9735",
+                "title": "People",
+                "artist": "Libianca",
+                "album": "People",
+                "duration": "3:04"
+        },
+        {
+                "number": "20",
+                "image": "https://i.scdn.co/image/ab67616d000048510e58a0f8308c1ad403d105e7",
+                "title": "CUFF IT",
+                "artist": "Beyoncé",
+                "album": "RENAISSANCE",
+                "duration": "3:45"
+        },
+        {
+                "number": "21",
+                "image": "https://i.scdn.co/image/ab67616d0000485158039b5147731b6e52202e46",
+                "title": "River",
+                "artist": "Miley Cyrus",
+                "album": "Endless Summer Vacation",
+                "duration": "2:42"
+        },
+        {
+                "number": "22",
+                "image": "https://i.scdn.co/image/ab67616d0000485170dbc9f47669d120ad874ec1",
+                "title": "Snooze",
+                "artist": "SZA",
+                "album": "SOS",
+                "duration": "3:21"
+        },
+        {
+                "number": "23",
+                "image": "https://i.scdn.co/image/ab67616d000048510e34fd68e8ff04e4515eb72a",
+                "title": "Just Wanna Rock",
+                "artist": "Lil Uzi Vert",
+                "album": "Just Wanna Rock",
+                "duration": "2:03"
+        },
+        {
+                "number": "24",
+                "image": "https://i.scdn.co/image/ab67616d00004851933c036cd61cd40d3f17a9c4",
+                "title": "I'm Good (Blue)",
+                "artist": "David Guetta, Bebe Rexha",
+                "album": "I'm Good (Blue)",
+                "duration": "2:55"
+        },
+        {
+                "number": "25",
+                "image": "https://i.scdn.co/image/ab67616d0000485180af37c3283fdcc2392a4042",
+                "title": "Here With Me",
+                "artist": "d4vd",
+                "album": "Here With Me",
+                "duration": "4:02"
+        },
+        {
+                "number": "26",
+                "image": "https://i.scdn.co/image/ab67616d0000485192b2db301339457ef79b5224",
+                "title": "Eat Your Young",
+                "artist": "Hozier",
+                "album": "Eat Your Young",
+                "duration": "4:02"
+        },
+        {
+                "number": "27",
+                "image": "https://i.scdn.co/image/ab67616d00004851999565cd8bea3f8f0985bb31",
+                "title": "10:35",
+                "artist": "Tiësto, Tate McRae",
+                "album": "10:35",
+                "duration": "2:52"
+        },
+        {
+                "number": "28",
+                "image": "https://i.scdn.co/image/ab67616d00004851cf9b9ac12129c2d73a788caf",
+                "title": "In Ha Mood",
+                "artist": "Ice Spice",
+                "album": "In Ha Mood",
+                "duration": "2:09"
+        },
+        {
+                "number": "29",
+                "image": "https://i.scdn.co/image/ab67616d00004851d70036292d54f29e8b68ec01",
+                "title": "OMG",
+                "artist": "NewJeans",
+                "album": "NewJeans 'OMG'",
+                "duration": "3:32"
+        },
+        {
+                "number": "30",
+                "image": "https://i.scdn.co/image/ab67616d000048512bf0876d42b90a8852ad6244",
+                "title": "Until I Found You (with Em Beihold) - Em Beihold Version",
+                "artist": "Stephen Sanchez, Em Beihold",
+                "album": "Until I Found You (Em Beihold Version)",
+                "duration": "2:56"
+        },
+        {
+                "number": "31",
+                "image": "https://i.scdn.co/image/ab67616d00004851ec96e006b8bdfc582610ec13",
+                "title": "I Ain't Worried",
+                "artist": "OneRepublic",
+                "album": "I Ain’t Worried (Music From The Motion Picture \"Top Gun: Maverick\")",
+                "duration": "2:28"
+        },
+        {
+                "number": "32",
+                "image": "https://i.scdn.co/image/ab67616d00004851a53643fc03785efb9926443d",
+                "title": "Love Again",
+                "artist": "The Kid LAROI",
+                "album": "Love Again",
+                "duration": "2:26"
+        },
+        {
+                "number": "33",
+                "image": "https://i.scdn.co/image/ab67616d00004851cbb3701743a568e7f1c4e967",
+                "title": "LET GO",
+                "artist": "Central Cee",
+                "album": "LET GO",
+                "duration": "2:54"
+        },
+        {
+                "number": "34",
+                "image": "https://i.scdn.co/image/ab67616d00004851918207ec2316cec13a0e036f",
+                "title": "If We Ever Broke Up",
+                "artist": "Mae Stephens",
+                "album": "If We Ever Broke Up",
+                "duration": "2:22"
+        },
+        {
+                "number": "35",
+                "image": "https://i.scdn.co/image/ab67616d00004851f6019075623d95de7e64fa33",
+                "title": "Cupid - Twin Ver.",
+                "artist": "FIFTY FIFTY",
+                "album": "The Beginning: Cupid",
+                "duration": "2:54"
+        },
+        {
+                "number": "36",
+                "image": "https://i.scdn.co/image/ab67616d000048511a4f1ada93881da4ca8060ff",
+                "title": "Made You Look",
+                "artist": "Meghan Trainor",
+                "album": "Takin' It Back",
+                "duration": "2:14"
+        },
+        {
+                "number": "37",
+                "image": "https://i.scdn.co/image/ab67616d00004851fc1df8423733f6f3c9e8dea2",
+                "title": "Last Night",
+                "artist": "Morgan Wallen",
+                "album": "3 Songs At A Time Sampler",
+                "duration": "2:43"
+        },
+        {
+                "number": "38",
+                "image": "https://i.scdn.co/image/ab67616d000048512e8ed79e177ff6011076f5f0",
+                "title": "Late Night Talking",
+                "artist": "Harry Styles",
+                "album": "Harry's House",
+                "duration": "2:57"
+        },
+        {
+                "number": "39",
+                "image": "https://i.scdn.co/image/ab67616d0000485134362676667a4322838ccc97",
+                "title": "I Like You (A Happier Song) (with Doja Cat)",
+                "artist": "Post Malone, Doja Cat",
+                "album": "Twelve Carat Toothache",
+                "duration": "3:12"
+        },
+        {
+                "number": "40",
+                "image": "https://i.scdn.co/image/ab67616d00004851813713582dcc508e7d5073c4",
+                "title": "Bones",
+                "artist": "Imagine Dragons",
+                "album": "Bones",
+                "duration": "2:45"
+        },
+        {
+                "number": "41",
+                "image": "https://i.scdn.co/image/ab67616d00004851bb54dde68cd23e2a268ae0f5",
+                "title": "Lavender Haze",
+                "artist": "Taylor Swift",
+                "album": "Midnights",
+                "duration": "3:22"
+        },
+        {
+                "number": "42",
+                "image": "https://i.scdn.co/image/ab67616d00004851b13b4a434585f484548e42c9",
+                "title": "Moonlight",
+                "artist": "Kali Uchis",
+                "album": "Moonlight",
+                "duration": "3:07"
+        },
+        {
+                "number": "43",
+                "image": "https://i.scdn.co/image/ab67616d000048519904ecb0b1148a128bdd5e36",
+                "title": "Bad Habit",
+                "artist": "Steve Lacy",
+                "album": "Bad Habit",
+                "duration": "3:52"
+        },
+        {
+                "number": "44",
+                "image": "https://i.scdn.co/image/ab67616d000048517d2e3c30024dca17cbe6ebf0",
+                "title": "Nonsense (with Coi Leray) - Remix",
+                "artist": "Sabrina Carpenter, Coi Leray",
+                "album": "Nonsense (Remix)",
+                "duration": "2:55"
+        },
+        {
+                "number": "45",
+                "image": "https://i.scdn.co/image/ab67616d00004851723c6c01155c023a9a9f8cf0",
+                "title": "Heaven",
+                "artist": "Niall Horan",
+                "album": "Heaven",
+                "duration": "3:06"
+        },
+        {
+                "number": "46",
+                "image": "https://i.scdn.co/image/ab67616d00004851f404676577626a87d92cf33f",
+                "title": "El Merengue",
+                "artist": "Marshmello, Manuel Turizo",
+                "album": "El Merengue",
+                "duration": "3:09"
+        },
+        {
+                "number": "47",
+                "image": "https://i.scdn.co/image/ab67616d00004851b2aec01b56eeb74610532700",
+                "title": "Yandel 150",
+                "artist": "Yandel, Feid",
+                "album": "Resistencia",
+                "duration": "3:36"
+        },
+        {
+                "number": "48",
+                "image": "https://i.scdn.co/image/ab67616d0000485102854a7060fccc1a66a4b5ad",
+                "title": "Rich Flex",
+                "artist": "Drake, 21 Savage",
+                "album": "Her Loss",
+                "duration": "3:59"
+        },
+        {
+                "number": "49",
+                "image": "https://i.scdn.co/image/ab67616d00004851b2b6670e3aca9bcd55fbabbb",
+                "title": "Something in the Orange",
+                "artist": "Zach Bryan",
+                "album": "Something in the Orange",
+                "duration": "3:48"
+        },
+        {
+                "number": "50",
+                "image": "https://i.scdn.co/image/ab67616d00004851c9f744b0d62da795bc21d04a",
+                "title": "La Bachata",
+                "artist": "Manuel Turizo",
+                "album": "La Bachata",
+                "duration": "2:42"
+        }
+]

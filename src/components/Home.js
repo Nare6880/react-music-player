@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import "../App.css";
 import Playlists from "./Playlists";
+import Playlist from "./Playlist";
+import RecommendedGenres from "./RecommendedGenres";
 import Songs from "./Songs";
+import PlaybackWrapper from "./PlaybackWrapper";
 import Row from "./Row";
 import Rowx2 from "./Rowx2";
 import Rowx3 from "./Rowx3";
@@ -21,14 +24,13 @@ import {
 
 const defaultComponentList = [
 	{ type: "Playlists", id: "0" },
-	{ type: "Playlists", id: "1" },
-	{ type: "Playlists", id: "2" },
-	{ type: "Playlists", id: "3" },
-	{ type: "Songs", id: "4" },
-	{ type: "Playlists", id: "5" },
-	{ type: "Playlists", id: "6" },
+	{ type: "RecommendedGenres", id: "1" },
+	{ type: "Songs", id: "2" },
+	{ type: "Playlist", id: "3" },
+	{ type: "Playlist", id: "4" },
+	{ type: "PlaybackWrapper", id: "5" },
 ];
-function Home() {
+function Home({ setContext, setPlaylist, playlist }) {
 	var boxMinWidth = 1000;
 	var isHandlerDragging = false;
 	var pointerRelativeXpos = 0;
@@ -175,14 +177,39 @@ function Home() {
 			<div className="Grid-1">
 				{columns === 1
 					? components.map(({ type, id }, index) => {
-							return <Row type={type} id={id} Customize={Customize}></Row>;
+							return (
+								<Row
+									type={type}
+									id={id}
+									Customize={Customize}
+									setContext={setContext}
+									playlist={playlist}
+									setPlaylist={setPlaylist}
+								></Row>
+							);
 					  })
 					: columns === 2
 					? components2.map((row) => {
-							return <Rowx2 Customize={Customize} Row={row}></Rowx2>;
+							return (
+								<Rowx2
+									Customize={Customize}
+									Row={row}
+									playlist={playlist}
+									setContext={setContext}
+									setPlaylist={setPlaylist}
+								></Rowx2>
+							);
 					  })
 					: components3.map((row) => {
-							return <Rowx3 Customize={Customize} Row={row}></Rowx3>;
+							return (
+								<Rowx3
+									Customize={Customize}
+									Row={row}
+									playlist={playlist}
+									setContext={setContext}
+									setPlaylist={setPlaylist}
+								></Rowx3>
+							);
 					  })}
 			</div>
 		</div>
@@ -196,10 +223,29 @@ function Home() {
 	function getComponent(object) {
 		switch (object.type) {
 			case "Playlists":
-				return <Playlists dragDisabled={Customize}></Playlists>;
+				return (
+					<Playlists
+						dragDisabled={Customize}
+						setContext={setContext}
+						setPlaylist={setPlaylist}
+					></Playlists>
+				);
+			case "Playlist":
+				return (
+					<Playlist
+						dragDisabled={Customize}
+						setPlaylist={setPlaylist}
+						playlist={playlist}
+					></Playlist>
+				);
 			case "Songs":
 				return <Songs dragDisabled={Customize}></Songs>;
 				break;
+			case "RecommendedGenres":
+				return <RecommendedGenres dragDisabled={Customize}></RecommendedGenres>;
+				break;
+			case "PlaybackWrapper":
+				return <PlaybackWrapper setContext={setContext}></PlaybackWrapper>;
 		}
 	}
 }
