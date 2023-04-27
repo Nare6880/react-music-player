@@ -17,7 +17,7 @@ function CarModePlayback({ isPlaying, setIsPlaying, isShuffle, setIsShuffle }) {
 			<div
 				className="car-item"
 				style={
-					isPlaying ? { backgroundColor: "green" } : { backgroundColor: "red" }
+					isPlaying ? { backgroundColor: "#93C572" } : { backgroundColor: "#93C572" }
 				}
 				onClick={() => {
 					setIsPlaying(!isPlaying);
@@ -35,7 +35,7 @@ function CarModePlayback({ isPlaying, setIsPlaying, isShuffle, setIsShuffle }) {
 			<div
 				className="car-item"
 				style={
-					isShuffle ? { backgroundColor: "green" } : { backgroundColor: "red" }
+					isShuffle ? { backgroundColor: "#93C572" } : { backgroundColor: "#93C572" }
 				}
 				onClick={() => {
 					setIsShuffle(!isShuffle);

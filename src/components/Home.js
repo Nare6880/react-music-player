@@ -64,7 +64,7 @@ function Home({ setContext, setPlaylist, playlist }) {
 				<div className="align-left">
 					<button
 						className="customizeButton"
-						style={{ backgroundColor: Customize ? "Green" : "Red" }}
+						style={{ backgroundColor: Customize ? "#5B92E5" : "#5B92E5" }}
 						onClick={() => updateCustomize(!Customize)}
 					>
 						<svg
@@ -80,7 +80,7 @@ function Home({ setContext, setPlaylist, playlist }) {
 					</button>
 					<button
 						className="customizeButton"
-						style={{ backgroundColor: columns === 1 ? "Green" : "Red" }}
+						style={{ backgroundColor: columns === 1 ? "#5B92E5" : "#5B92E5" }}
 						onClick={() => updateColumns(1)}
 					>
 						<img
@@ -90,7 +90,7 @@ function Home({ setContext, setPlaylist, playlist }) {
 					</button>
 					<button
 						className="customizeButton"
-						style={{ backgroundColor: columns === 2 ? "Green" : "Red" }}
+						style={{ backgroundColor: columns === 2 ? "#5B92E5" : "#5B92E5" }}
 						onClick={() => updateColumns(2)}
 					>
 						<svg
@@ -106,7 +106,7 @@ function Home({ setContext, setPlaylist, playlist }) {
 					</button>
 					<button
 						className="customizeButton"
-						style={{ backgroundColor: columns === 3 ? "Green" : "Red" }}
+						style={{ backgroundColor: columns === 3 ? "#5B92E5" : "#5B92E5" }}
 						onClick={() => updateColumns(3)}
 					>
 						<svg
@@ -155,7 +155,7 @@ function Home({ setContext, setPlaylist, playlist }) {
 			<div className="align-left">
 				<button
 					className="customizeButton"
-					style={{ backgroundColor: Customize ? "Green" : "Red" }}
+					style={{ backgroundColor: Customize ? "#5B92E5" : "#5B92E5" }}
 					onClick={() => updateCustomize(!Customize)}
 				>
 					<svg

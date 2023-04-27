@@ -72,7 +72,7 @@ body {
 	background-color: black;
 	color: white;
 	font-weight: 600;
-	border: transparent;
+	border-radius: 5px 5px;
 }
 .song-image {
 	height: 100%;
@@ -94,12 +94,20 @@ body {
 }
 .menu-bar {
 	display: flex;
-	height: 30px;
+	height: 40px;
 	width: 100%;
 	justify-content: center;
 	gap: 10px;
 	font-size: 1.5rem;
+	background:#3B444B;
 }
+
+.menu-bar a:hover{
+	background-color: #5B92E5;
+	border-radius: 5px 5px;
+	 
+}
+
 img {
 	height: 50px;
 }
@@ -172,7 +180,7 @@ body {
 	display: block;
 	width: 3px;
 	height: 100%;
-	background-color: grey;
+	background-color: black;
 	margin: 0 auto;
 }
 .flex-2 {
@@ -198,10 +206,29 @@ body {
 .playbackMenu {
 	display: flex;
 	width: 100%;
-	height: 2rem;
-	justify-content: end;
+	height: 3rem;
+	align-content: space-evenly;
 	flex-direction: row;
+	font-size: 2.5rem;
+	color: white;
+	font-weight: 600;
 }
+
+#playback{
+	top: 20px;
+	font-size: 2.5rem;
+	background-color: black;
+	color: white;
+	font-weight: 600;
+	border-radius: 5px 5px;
+}
+
+.playbackMenu svg{
+	padding-left: 20px;
+	height: 100%;
+	
+} 
+
 .component-header {
 	position: relative;
 	height: 2em;
@@ -236,29 +263,20 @@ body {
 	max-height: 400px;
 	overflow: scroll;
 }
-.menu-bar {
-	background-color: black;
-	height: 40px;
-}
+
 .component-header-text {
 	position: absolute;
 	padding: 0;
-	/* margin: 0; */
 	margin: auto;
-	/* top: 0px;
-	left: 0; */
 	padding: 50;
 	text-align: center;
 }
 
 h2{
-	text-align: center;
-	margin: auto;
-	width: 640px; 
-	padding: 50px;
 	font-family: 'Lexend Deca', sans-serif; 
-	color: #2E475D; 
+	color: whitesmoke; 
 }
+
 .playlistImage {
 	height: 5.5rem;
 }
@@ -267,16 +285,14 @@ h2{
 	height: 5em;
 }
 .component-container {
-	max-height: 400px;
+	max-height: 300px;
+	max-width: 800px;
 	overflow-x: hidden;
 	overflow-y: scroll;
 	position: relative;
-	margin-left: 20px;
-	background: green;
-	border-radius: 50% / 10%;
-   /* -moz-border-radius: 100px / 70px;
-    -webkit-border-radius: 100px / 70px;
-    border-radius: 100px / 70px;*/
+	margin-left: 30px;
+	margin-top: 50px;
+	background: #5B92E5;
 } 
 
 .fa-2x {
