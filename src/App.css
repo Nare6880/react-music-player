@@ -170,7 +170,7 @@ body {
 	margin: 10px;
 }
 .division {
-	width: 10px;
+	width: 40px;
 	height: 100%;
 	cursor: ew-resize;
 	flex: 0 0 auto;
