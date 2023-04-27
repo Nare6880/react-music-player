@@ -73,6 +73,7 @@ li {
 body {
 	background-color: black;
 	color: white;
+	
 }
 .Grid-1 {
 	display: grid;
@@ -129,13 +130,26 @@ body {
 .component-header {
 	position: relative;
 	height: 2em;
+	
 }
 .component-header-text {
 	position: absolute;
 	padding: 0;
-	margin: 0;
-	top: 0px;
-	left: 0;
+	/* margin: 0; */
+	margin: auto;
+	/* top: 0px;
+	left: 0; */
+	padding: 50;
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+	margin: auto;
+	width: 640px; 
+	padding: 50px;
+	font-family: 'Lexend Deca', sans-serif; 
+	color: #2E475D; 
 }
 
 .component-container {
@@ -143,7 +157,14 @@ body {
 	overflow-x: hidden;
 	overflow-y: scroll;
 	position: relative;
-}
+	margin-left: 20px;
+	background: green;
+	border-radius: 50% / 10%;
+   /* -moz-border-radius: 100px / 70px;
+    -webkit-border-radius: 100px / 70px;
+    border-radius: 100px / 70px;*/
+} 
+
 .fa-2x {
 	font-size: 1.8em;
 }
@@ -151,6 +172,7 @@ body {
 	position: absolute;
 	right: 0;
 	top: 2px;
+	text-align: center;
 }
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
