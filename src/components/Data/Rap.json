@@ -1,0 +1,406 @@
+{
+	"image": "https://seed-mix-image.spotifycdn.com/v6/img/desc/Rap/en/default",
+	"name": "Rap",
+	"songs": [
+		{
+			"number": "1",
+			"image": "https://i.scdn.co/image/ab67616d000048512ee031f2335d35b2e6c7bc40",
+			"title": "DOGTOOTH",
+			"artist": "Tyler, The Creator",
+			"album": "DOGTOOTH",
+			"duration": "2:41"
+		},
+		{
+			"number": "2",
+			"image": "https://i.scdn.co/image/ab67616d00004851feeff698e6090e6b02f21ec0",
+			"title": "Private Landing (feat. Justin Bieber & Future)",
+			"artist": "Don Toliver, Justin Bieber, Future",
+			"album": "Love Sick",
+			"duration": "3:58"
+		},
+		{
+			"number": "3",
+			"image": "https://i.scdn.co/image/ab67616d000048511e28b92ccb915b5307a7eb02",
+			"title": "Watch This - ARIZONATEARS Pluggnb Remix",
+			"artist": "Lil Uzi Vert, sped up nightcore, ARIZONATEARS",
+			"album": "Watch This (ARIZONATEARS Pluggnb Remix)",
+			"duration": "2:43"
+		},
+		{
+			"number": "4",
+			"image": "https://i.scdn.co/image/ab67616d00004851beac0a51c5e6f79a4d8432e8",
+			"title": "I'M THAT BITCH",
+			"artist": "BIA, Timbaland",
+			"album": "I'M THAT BITCH",
+			"duration": "2:32"
+		},
+		{
+			"number": "5",
+			"image": "https://i.scdn.co/image/ab67616d0000485101e4e2d274ac8014549bf0f5",
+			"title": "I Remember (feat. Roddy Ricch & Kodak Black)",
+			"artist": "Internet Money, Roddy Ricch, Kodak Black",
+			"album": "I Remember (feat. Roddy Ricch & Kodak Black)",
+			"duration": "2:53"
+		},
+		{
+			"number": "6",
+			"image": "https://i.scdn.co/image/ab67616d00004851567972170f3197293b2fb0a1",
+			"title": "AIN'T GONNA ANSWER",
+			"artist": "NLE Choppa, Lil Wayne",
+			"album": "AIN'T GONNA ANSWER",
+			"duration": "3:07"
+		},
+		{
+			"number": "7",
+			"image": "https://i.scdn.co/image/ab67616d00004851cdce39ecb633bea9ef7705a6",
+			"title": "Superhero (Heroes & Villains) [with Future & Chris Brown]",
+			"artist": "Metro Boomin, Future, Chris Brown",
+			"album": "HEROES & VILLAINS",
+			"duration": "3:02"
+		},
+		{
+			"number": "8",
+			"image": "https://i.scdn.co/image/ab67616d00004851d2c898fb3f092fb12e5132d5",
+			"title": "PAINTING PICTURES",
+			"artist": "Superstar Pride",
+			"album": "5LBS OF PRESSURE",
+			"duration": "2:02"
+		},
+		{
+			"number": "9",
+			"image": "https://i.scdn.co/image/ab67616d0000485102854a7060fccc1a66a4b5ad",
+			"title": "Spin Bout U",
+			"artist": "Drake, 21 Savage",
+			"album": "Her Loss",
+			"duration": "3:34"
+		},
+		{
+			"number": "10",
+			"image": "https://i.scdn.co/image/ab67616d000048515067cc9332e2fdc69ea7b7a9",
+			"title": "Freestyle",
+			"artist": "Lil Baby",
+			"album": "Too Hard",
+			"duration": "2:42"
+		},
+		{
+			"number": "11",
+			"image": "https://i.scdn.co/image/ab67616d0000485174c78dff462a08d1cfc58c7e",
+			"title": "Greatness",
+			"artist": "Quavo",
+			"album": "Greatness",
+			"duration": "3:05"
+		},
+		{
+			"number": "12",
+			"image": "https://i.scdn.co/image/ab67616d00004851c6e0948bbb0681ff29cdbae8",
+			"title": "No Role Modelz",
+			"artist": "J. Cole",
+			"album": "2014 Forest Hills Drive",
+			"duration": "4:52"
+		},
+		{
+			"number": "13",
+			"image": "https://i.scdn.co/image/ab67616d0000485113e54d6687e65678d60466c2",
+			"title": "Trance (with Travis Scott & Young Thug)",
+			"artist": "Metro Boomin, Travis Scott, Young Thug",
+			"album": "HEROES & VILLAINS",
+			"duration": "3:14"
+		},
+		{
+			"number": "14",
+			"image": "https://i.scdn.co/image/ab67616d0000485166b04b41fa6f8908dce86695",
+			"title": "Forever (feat. Fridayy)",
+			"artist": "Lil Baby, Fridayy",
+			"album": "It's Only Me",
+			"duration": "2:47"
+		},
+		{
+			"number": "15",
+			"image": "https://i.scdn.co/image/ab67616d00004851814ba822c66aff0a1c0f9770",
+			"title": "FreakyT",
+			"artist": "TiaCorine",
+			"album": "I Can't Wait",
+			"duration": "2:14"
+		},
+		{
+			"number": "16",
+			"image": "https://i.scdn.co/image/ab67616d0000485102854a7060fccc1a66a4b5ad",
+			"title": "Rich Flex",
+			"artist": "Drake, 21 Savage",
+			"album": "Her Loss",
+			"duration": "3:59"
+		},
+		{
+			"number": "17",
+			"image": "https://i.scdn.co/image/ab67616d000048510e34fd68e8ff04e4515eb72a",
+			"title": "Just Wanna Rock",
+			"artist": "Lil Uzi Vert",
+			"album": "Just Wanna Rock",
+			"duration": "2:03"
+		},
+		{
+			"number": "18",
+			"image": "https://i.scdn.co/image/ab67616d000048516138f5f533444558c2f133e1",
+			"title": "Hey, Mickey!",
+			"artist": "Baby Tate, Saweetie",
+			"album": "Hey, Mickey!",
+			"duration": "2:53"
+		},
+		{
+			"number": "19",
+			"image": "https://i.scdn.co/image/ab67616d00004851cdce39ecb633bea9ef7705a6",
+			"title": "Niagara Falls (Foot or 2) [with Travis Scott & 21 Savage]",
+			"artist": "Metro Boomin, Travis Scott, 21 Savage",
+			"album": "HEROES & VILLAINS",
+			"duration": "3:27"
+		},
+		{
+			"number": "20",
+			"image": "https://i.scdn.co/image/ab67616d000048518e5377bae9150f933567bb8b",
+			"title": "Fact (feat. Lil Uzi Vert)",
+			"artist": "Ghostluvme, Lil Uzi Vert",
+			"album": "Fact (feat. Lil Uzi Vert)",
+			"duration": "2:54"
+		},
+		{
+			"number": "21",
+			"image": "https://i.scdn.co/image/ab67616d0000485174263936c646f196bfe58893",
+			"title": "if looks could kill",
+			"artist": "Destroy Lonely",
+			"album": "if looks could kill",
+			"duration": "3:14"
+		},
+		{
+			"number": "22",
+			"image": "https://i.scdn.co/image/ab67616d0000485140cf27e72badc27f9f278fa7",
+			"title": "Dirt",
+			"artist": "Key Glock",
+			"album": "Dirt",
+			"duration": "3:19"
+		},
+		{
+			"number": "23",
+			"image": "https://i.scdn.co/image/ab67616d0000485129bdedbec2059341ed30459c",
+			"title": "Palisades, CA",
+			"artist": "Larry June, The Alchemist, Big Sean",
+			"album": "Palisades, CA",
+			"duration": "3:12"
+		},
+		{
+			"number": "24",
+			"image": "https://i.scdn.co/image/ab67616d00004851cf9b9ac12129c2d73a788caf",
+			"title": "In Ha Mood",
+			"artist": "Ice Spice",
+			"album": "In Ha Mood",
+			"duration": "2:09"
+		},
+		{
+			"number": "25",
+			"image": "https://i.scdn.co/image/ab67616d00004851064c51559ea4a86bd557a86f",
+			"title": "Red Ruby Da Sleeze",
+			"artist": "Nicki Minaj",
+			"album": "Red Ruby Da Sleeze",
+			"duration": "3:34"
+		},
+		{
+			"number": "26",
+			"image": "https://i.scdn.co/image/ab67616d000048511e725a85985f8279f466ccab",
+			"title": "Kant Nobody (feat. DMX)",
+			"artist": "Lil Wayne, DMX",
+			"album": "Kant Nobody",
+			"duration": "3:00"
+		},
+		{
+			"number": "27",
+			"image": "https://i.scdn.co/image/ab67616d000048510e6d03ec271c536f7e13f031",
+			"title": "No Time Wasted (feat. Future)",
+			"artist": "Polo G, Future",
+			"album": "No Time Wasted (feat. Future)",
+			"duration": "2:59"
+		},
+		{
+			"number": "28",
+			"image": "https://i.scdn.co/image/ab67616d0000485149a4f6c9a637e02252a0076d",
+			"title": "SLUT ME OUT",
+			"artist": "NLE Choppa",
+			"album": "SLUT ME OUT",
+			"duration": "2:03"
+		},
+		{
+			"number": "29",
+			"image": "https://i.scdn.co/image/ab67616d00004851f5e27c2aa0b110c2b6611577",
+			"title": "Embarrassed (feat. Travis Scott)",
+			"artist": "Don Toliver, Travis Scott",
+			"album": "Love Sick (Deluxe)",
+			"duration": "3:12"
+		},
+		{
+			"number": "30",
+			"image": "https://i.scdn.co/image/ab67616d000048511cf7cf4446b496525e423465",
+			"title": "Players",
+			"artist": "Coi Leray",
+			"album": "Players",
+			"duration": "2:19"
+		},
+		{
+			"number": "31",
+			"image": "https://i.scdn.co/image/ab67616d000048513ccb733ac092befa6a25771f",
+			"title": "Ex�s (Phatnall Remix) (with Lil Durk)",
+			"artist": "GloRilla, Lil Durk",
+			"album": "Anyways, Life�s Great�Bonus Edition",
+			"duration": "3:17"
+		},
+		{
+			"number": "32",
+			"image": "https://i.scdn.co/image/ab67616d00004851f9f04e8e66ec696308f53021",
+			"title": "King Snipe",
+			"artist": "Gucci Mane, Kodak Black",
+			"album": "King Snipe",
+			"duration": "3:34"
+		},
+		{
+			"number": "33",
+			"image": "https://i.scdn.co/image/ab67616d00004851ae7a96d9d5107992d40d94c5",
+			"title": "Mad Max",
+			"artist": "Lil Durk, Future",
+			"album": "Lil Durk Presents: Loyal Bros 2",
+			"duration": "2:33"
+		},
+		{
+			"number": "34",
+			"image": "https://i.scdn.co/image/ab67616d00004851feeff698e6090e6b02f21ec0",
+			"title": "Go Down (feat. TisaKorean)",
+			"artist": "Don Toliver, TisaKorean",
+			"album": "Love Sick",
+			"duration": "3:30"
+		},
+		{
+			"number": "35",
+			"image": "https://i.scdn.co/image/ab67616d00004851381ec997d012be4da111e3b3",
+			"title": "Pretty Girls Walk (with Coi Leray) - Remix",
+			"artist": "Big Boss Vette, Coi Leray",
+			"album": "Pretty Girls Walk (Remix)",
+			"duration": "2:20"
+		},
+		{
+			"number": "36",
+			"image": "https://i.scdn.co/image/ab67616d00004851f5d35bf91a2b5f0009b010d4",
+			"title": "Hell Yeah",
+			"artist": "SoFaygo, Ken Carson",
+			"album": "Pink Heartz",
+			"duration": "2:48"
+		},
+		{
+			"number": "37",
+			"image": "https://i.scdn.co/image/ab67616d00004851daef156501770550d3ace0a0",
+			"title": "23",
+			"artist": "NLE Choppa",
+			"album": "23",
+			"duration": "4:20"
+		},
+		{
+			"number": "38",
+			"image": "https://i.scdn.co/image/ab67616d00004851ed05a91d503057cce752e8dc",
+			"title": "Hanging With Wolves",
+			"artist": "Lil Durk",
+			"album": "Hanging With Wolves",
+			"duration": "3:25"
+		},
+		{
+			"number": "39",
+			"image": "https://i.scdn.co/image/ab67616d00004851ae2f0d991f29376c4de3f6eb",
+			"title": "Water (Drowning Pt. 2) [feat. Kodak Black]",
+			"artist": "A Boogie Wit da Hoodie, Kodak Black",
+			"album": "Me vs. Myself",
+			"duration": "3:26"
+		},
+		{
+			"number": "40",
+			"image": "https://i.scdn.co/image/ab67616d000048513f560650c583444498c214f0",
+			"title": "Shmunk (feat. YoungBoy Never Broke Again)",
+			"artist": "Yeat, YoungBoy Never Broke Again",
+			"album": "Aft�rLyfe",
+			"duration": "3:49"
+		},
+		{
+			"number": "41",
+			"image": "https://i.scdn.co/image/ab67616d000048515283becb004310d5a5025bcd",
+			"title": "Love For The Streets",
+			"artist": "Young Dolph",
+			"album": "Paper Route Frank",
+			"duration": "3:06"
+		},
+		{
+			"number": "42",
+			"image": "https://i.scdn.co/image/ab67616d0000485123240f142e334c5b4b0029fc",
+			"title": "Let's Ride (feat. YG, Ty Dolla $ign, Lambo4oe) - Trailer Anthem",
+			"artist": "YG, The Notorious B.I.G., Bone Thugs-N-Harmony, Ty Dolla $ign, Lambo4oe",
+			"album": "Let's Ride (feat. YG, Ty Dolla $ign, Lambo4oe) [Trailer Anthem]",
+			"duration": "2:27"
+		},
+		{
+			"number": "43",
+			"image": "https://i.scdn.co/image/ab67616d000048516214de134a99b890047a161e",
+			"title": "Quickie",
+			"artist": "Moneybagg Yo",
+			"album": "Quickie",
+			"duration": "3:07"
+		},
+		{
+			"number": "44",
+			"image": "https://i.scdn.co/image/ab67616d0000485114379a931f678c070c6dbdcd",
+			"title": "HO4ME",
+			"artist": "DJ Drama, Lil Baby, A Boogie Wit da Hoodie",
+			"album": "HO4ME",
+			"duration": "3:55"
+		},
+		{
+			"number": "45",
+			"image": "https://i.scdn.co/image/ab67616d00004851b98044556b17964043251c1f",
+			"title": "No 808�s (feat. Vory)",
+			"artist": "A Boogie Wit da Hoodie, Vory",
+			"album": "No 808�s (feat. Vory)",
+			"duration": "3:20"
+		},
+		{
+			"number": "46",
+			"image": "https://i.scdn.co/image/ab67616d00004851e983ae1f4004830b0a7c1ab4",
+			"title": "UNDEFEATED",
+			"artist": "EST Gee",
+			"album": "UNDEFEATED",
+			"duration": "2:45"
+		},
+		{
+			"number": "47",
+			"image": "https://i.scdn.co/image/ab67616d00004851f123270da0f999b3ba015beb",
+			"title": "Me & You",
+			"artist": "Central Cee",
+			"album": "Me & You",
+			"duration": "3:07"
+		},
+		{
+			"number": "48",
+			"image": "https://i.scdn.co/image/ab67616d00004851d6ba2461ab2260c6e6c16cab",
+			"title": "Passionate (feat. Roddy Ricch)",
+			"artist": "Blxst, Roddy Ricch",
+			"album": "Just For Clarity 2",
+			"duration": "2:50"
+		},
+		{
+			"number": "49",
+			"image": "https://i.scdn.co/image/ab67616d00004851083c41df2fbc4cf8c54c7858",
+			"title": "Favorite Song",
+			"artist": "Toosii",
+			"album": "Favorite Song",
+			"duration": "3:28"
+		},
+		{
+			"number": "50",
+			"image": "https://i.scdn.co/image/ab67616d00004851b4fef6879c6ebca6dcc3bc33",
+			"title": "BALL LIKE ME TOO",
+			"artist": "EST Gee",
+			"album": "MAD",
+			"duration": "2:38"
+		}
+	]
+}

@@ -15,7 +15,7 @@ class GetSong:
 
     def webdriver_launch(self):
         # base_url = "https://open.spotify.com/playlist/37i9dQZF1DX4JAvHpjipBk"
-        base_url = "https://open.spotify.com/playlist/37i9dQZF1DX0SM0LYsmbMT"
+        base_url = "https://open.spotify.com/playlist/3SFXCGMk4EuIwhbn1LswkU"
         self.driver.get(base_url)
         self.driver.maximize_window()
 
@@ -32,13 +32,13 @@ class GetSong:
 
         for song in self.songs:
             self.data = {
-                "number": song.findNext('span', attrs={"class": "Type__TypeElement-sc-goli3j-0 eRYMpa VrRwdIZO0sRX1lsWxJBe"}).text,
+                "number": song.findNext('span', attrs={"class": "Type__TypeElement-sc-goli3j-0 ihMnqt VrRwdIZO0sRX1lsWxJBe"}).text,
                 "image": song.find('img')['src'],
                 "title": song.find('a').text,
-                "artist": song.find('span', attrs={"class": "Type__TypeElement-sc-goli3j-0 dvSMET rq2VQ5mb9SDAFWbBIUIn standalone-ellipsis-one-line"}).text,
+                "artist": song.find('span', attrs={"class": "Type__TypeElement-sc-goli3j-0 jeEUMY rq2VQ5mb9SDAFWbBIUIn standalone-ellipsis-one-line"}).text,
                 "album": song.find_all_next('div', attrs={"class": "bfQ2S9bMXr_kJjqEfcwA"})[0].text,
                 "duration": song.findNext('div', attrs={
-                    "class": "Type__TypeElement-sc-goli3j-0 dvSMET Btg2qHSuepFGBG6X0yEN"}).text,
+                    "class": "Type__TypeElement-sc-goli3j-0 jeEUMY Btg2qHSuepFGBG6X0yEN"}).text,
             }
             # print(self.data)
             if self.data not in self.res:
@@ -69,5 +69,4 @@ class GetSong:
 if __name__ == "__main__":
     c = GetSong()
     c.run()
-
 

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 const defaultMenuContent = [
 	{ type: "Home", id: "0" },
 	{ type: "Songs", id: "1" },
+	{ type: "Playlist", id: "2" },
 ];
 function MenuBar({ setContext }) {
 	const [menuContent, setMenuContent] = useState(defaultMenuContent);

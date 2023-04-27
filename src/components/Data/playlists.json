@@ -1,0 +1,19 @@
+{
+	"playlists": [
+		{
+			"name": "2000s Hits",
+			"image": "https://mosaic.scdn.co/300/ab67616d00001e02365b3fb800c19f7ff72602daab67616d00001e02b9ff0a5f40d3406aed5e5e3bab67616d00001e02efc6988972cb04105f002cd4ab67616d00001e02f9bd7a6c772ac496015be3f8",
+			"playlistKey": "2000s"
+		},
+		{
+			"name": "Rap Hits",
+			"image": "https://i.scdn.co/image/ab67706c0000da84004375c6b51601bf4a002747",
+			"playlistKey": "rapHits"
+		},
+		{
+			"name": "Rock Hits",
+			"image": "https://i.scdn.co/image/ab67706f0000000278b4745cb9ce8ffe32daaf7e",
+			"playlistKey": "rockHits"
+		}
+	]
+}

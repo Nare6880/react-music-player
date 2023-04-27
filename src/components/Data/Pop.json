@@ -1,0 +1,438 @@
+{
+	"image": "https://i.scdn.co/image/ab67706f00000002eacd4505f194142803f40055",
+	"name": "Pop",
+	"songs": [
+		{
+			"number": "1",
+			"image": "https://i.scdn.co/image/ab67616d000048518481d8f15859aa5bae75ee17",
+			"title": "All Of The Girls You Loved Before",
+			"artist": "Taylor Swift",
+			"album": "All Of The Girls You Loved Before",
+			"duration": "3:41"
+		},
+		{
+			"number": "2",
+			"image": "https://i.scdn.co/image/ab67616d00004851eecd7ea350b344ae64f7a4ff",
+			"title": "Eyes Closed",
+			"artist": "Ed Sheeran",
+			"album": "Eyes Closed",
+			"duration": "3:14"
+		},
+		{
+			"number": "3",
+			"image": "https://i.scdn.co/image/ab67616d00004851cbfe2fdb85f13fe4e0ba11a1",
+			"title": "Eat Your Young",
+			"artist": "Hozier",
+			"album": "Eat Your Young",
+			"duration": "4:02"
+		},
+		{
+			"number": "4",
+			"image": "https://i.scdn.co/image/ab67616d000048519f5694123ca83b1d87a568c3",
+			"title": "Die 4 Me",
+			"artist": "Halsey",
+			"album": "Die 4 Me",
+			"duration": "3:35"
+		},
+		{
+			"number": "5",
+			"image": "https://i.scdn.co/image/ab67616d0000485153f126eb16bb3ab5720b0ba7",
+			"title": "LEFT RIGHT",
+			"artist": "XG",
+			"album": "SHOOTING STAR",
+			"duration": "3:28"
+		},
+		{
+			"number": "6",
+			"image": "https://i.scdn.co/image/ab67616d00004851d5112e087a6ad0aa73f25e12",
+			"title": "Mother",
+			"artist": "Meghan Trainor",
+			"album": "Takin' It Back (Deluxe)",
+			"duration": "2:27"
+		},
+		{
+			"number": "7",
+			"image": "https://i.scdn.co/image/ab67616d000048510f45623be014a592a5815827",
+			"title": "Feather",
+			"artist": "Sabrina Carpenter",
+			"album": "emails i can�t send fwd:",
+			"duration": "3:05"
+		},
+		{
+			"number": "8",
+			"image": "https://i.scdn.co/image/ab67616d0000485101c4d0a569ce0b249012a99f",
+			"title": "We Go Down Together (with Khalid)",
+			"artist": "Dove Cameron, Khalid",
+			"album": "We Go Down Together (with Khalid)",
+			"duration": "3:04"
+		},
+		{
+			"number": "9",
+			"image": "https://i.scdn.co/image/ab67616d000048519f034b4b4613d81a49defc93",
+			"title": "SunKissing",
+			"artist": "Hailee Steinfeld",
+			"album": "SunKissing",
+			"duration": "2:57"
+		},
+		{
+			"number": "10",
+			"image": "https://i.scdn.co/image/ab67616d0000485158039b5147731b6e52202e46",
+			"title": "Rose Colored Lenses",
+			"artist": "Miley Cyrus",
+			"album": "Endless Summer Vacation",
+			"duration": "3:43"
+		},
+		{
+			"number": "11",
+			"image": "https://i.scdn.co/image/ab67616d00004851c669a1100d8cd137a2151fdc",
+			"title": "Freezing",
+			"artist": "Mimi Webb",
+			"album": "Amelia",
+			"duration": "2:56"
+		},
+		{
+			"number": "12",
+			"image": "https://i.scdn.co/image/ab67616d000048519a087af6a3bf8fa7d5db50e2",
+			"title": "this is what losing someone feels like",
+			"artist": "JVKE",
+			"album": "this is what losing someone feels like",
+			"duration": "2:52"
+		},
+		{
+			"number": "44",
+			"image": "https://i.scdn.co/image/ab67616d000048510393be737d337be7e11ee352",
+			"title": "I DON'T WANNA BE LIKE YOU",
+			"artist": "Ruel",
+			"album": "I DON'T WANNA BE LIKE YOU",
+			"duration": "2:43"
+		},
+		{
+			"number": "45",
+			"image": "https://i.scdn.co/image/ab67616d000048516997d60d0d2319c7a2a7025b",
+			"title": "SET ME FREE - ENG",
+			"artist": "TWICE",
+			"album": "READY TO BE",
+			"duration": "3:01"
+		},
+		{
+			"number": "46",
+			"image": "https://i.scdn.co/image/ab67616d00004851a785a1a12a6272dab442b7ad",
+			"title": "Bruises",
+			"artist": "Rene� Rapp",
+			"album": "Everything To Everyone (Deluxe)",
+			"duration": "2:41"
+		},
+		{
+			"number": "47",
+			"image": "https://i.scdn.co/image/ab67616d00004851d370fdc4dbc47778b9b667c3",
+			"title": "ceilings",
+			"artist": "Lizzy McAlpine",
+			"album": "five seconds flat",
+			"duration": "3:02"
+		},
+		{
+			"number": "48",
+			"image": "https://i.scdn.co/image/ab67616d00004851c158e7f083a8e87f7a5662a8",
+			"title": "WORTHLESS",
+			"artist": "d4vd",
+			"album": "WORTHLESS",
+			"duration": "2:43"
+		},
+		{
+			"number": "49",
+			"image": "https://i.scdn.co/image/ab67616d0000485153f126eb16bb3ab5720b0ba7",
+			"title": "SHOOTING STAR",
+			"artist": "XG",
+			"album": "SHOOTING STAR",
+			"duration": "3:23"
+		},
+		{
+			"number": "50",
+			"image": "https://i.scdn.co/image/ab67616d000048512b0ba87db609976eee193bd6",
+			"title": "Tattoo",
+			"artist": "Loreen",
+			"album": "Tattoo",
+			"duration": "3:03"
+		},
+		{
+			"number": "51",
+			"image": "https://i.scdn.co/image/ab67616d00004851f429549123dbe8552764ba1d",
+			"title": "Flowers",
+			"artist": "Miley Cyrus",
+			"album": "Flowers",
+			"duration": "3:20"
+		},
+		{
+			"number": "52",
+			"image": "https://i.scdn.co/image/ab67616d000048515465af6a16e54bdc2de4ab3e",
+			"title": "Shut Me Up",
+			"artist": "Nicky Youre",
+			"album": "Shut Me Up",
+			"duration": "2:21"
+		},
+		{
+			"number": "53",
+			"image": "https://i.scdn.co/image/ab67616d000048519375bce83fc4fd70a683813e",
+			"title": "Where Do You Go",
+			"artist": "Jessie Murph",
+			"album": "drowning",
+			"duration": "2:50"
+		},
+		{
+			"number": "54",
+			"image": "https://i.scdn.co/image/ab67616d00004851474dfc80905c0ff428aa652d",
+			"title": "Wings",
+			"artist": "Jonas Brothers",
+			"album": "Wings",
+			"duration": "1:58"
+		},
+		{
+			"number": "55",
+			"image": "https://i.scdn.co/image/ab67616d00004851b9041796cb2839e2e89e3ea6",
+			"title": "Special (feat. SZA)",
+			"artist": "Lizzo, SZA",
+			"album": "Special (feat. SZA)",
+			"duration": "2:54"
+		},
+		{
+			"number": "56",
+			"image": "https://i.scdn.co/image/ab67616d000048512c36fba23e8107b9ee5d3190",
+			"title": "Heart Wants What It Wants",
+			"artist": "Bebe Rexha",
+			"album": "Heart Wants What It Wants",
+			"duration": "3:02"
+		},
+		{
+			"number": "57",
+			"image": "https://i.scdn.co/image/ab67616d0000485166245b5643c5a9dd16e67a37",
+			"title": "SAD B!TCH",
+			"artist": "Anne-Marie",
+			"album": "SAD B!TCH",
+			"duration": "2:12"
+		},
+		{
+			"number": "58",
+			"image": "https://i.scdn.co/image/ab67616d0000485126b94c1fe4543bbbfb174d65",
+			"title": "Ghost",
+			"artist": "Ava Max",
+			"album": "Diamonds & Dancefloors",
+			"duration": "3:01"
+		},
+		{
+			"number": "59",
+			"image": "https://i.scdn.co/image/ab67616d0000485180fd293e4b083f0f5d3e5a77",
+			"title": "Borderline",
+			"artist": "Tove Lo",
+			"album": "Borderline",
+			"duration": "3:13"
+		},
+		{
+			"number": "60",
+			"image": "https://i.scdn.co/image/ab67616d00004851feeff698e6090e6b02f21ec0",
+			"title": "Private Landing (feat. Justin Bieber & Future)",
+			"artist": "Don Toliver, Justin Bieber, Future",
+			"album": "Love Sick",
+			"duration": "3:58"
+		},
+		{
+			"number": "61",
+			"image": "https://i.scdn.co/image/ab67616d00004851a4ec2f14b1c0d7851efb5090",
+			"title": "Rush",
+			"artist": "Ayra Starr",
+			"album": "Rush",
+			"duration": "3:05"
+		},
+		{
+			"number": "62",
+			"image": "https://i.scdn.co/image/ab67616d00004851a53643fc03785efb9926443d",
+			"title": "Love Again",
+			"artist": "The Kid LAROI",
+			"album": "Love Again",
+			"duration": "2:26"
+		},
+		{
+			"number": "63",
+			"image": "https://i.scdn.co/image/ab67616d000048512f72047014398c7a7b1dbebf",
+			"title": "Stay Anything",
+			"artist": "Chelsea Cutler",
+			"album": "Stay Anything",
+			"duration": "3:28"
+		},
+		{
+			"number": "64",
+			"image": "https://i.scdn.co/image/ab67616d00004851fc3ff54493fcc890bcaa036c",
+			"title": "I'm Not Here To Make Friends",
+			"artist": "Sam Smith, Calvin Harris, Jessie Reyez",
+			"album": "Gloria",
+			"duration": "3:49"
+		},
+		{
+			"number": "65",
+			"image": "https://i.scdn.co/image/ab67616d0000485150b3b30281e3acf03ac5d9f0",
+			"title": "That's What I Get",
+			"artist": "charlieonnafriday",
+			"album": "That's What I Get",
+			"duration": "2:30"
+		},
+		{
+			"number": "66",
+			"image": "https://i.scdn.co/image/ab67616d0000485178f711930b2e124f883725b4",
+			"title": "people pleaser",
+			"artist": "Cat Burns",
+			"album": "people pleaser / sleep at night",
+			"duration": "2:26"
+		},
+		{
+			"number": "67",
+			"image": "https://i.scdn.co/image/ab67616d0000485119aff2da63b211d75341e8eb",
+			"title": "LIMBO",
+			"artist": "keshi",
+			"album": "GABRIEL",
+			"duration": "3:32"
+		},
+		{
+			"number": "68",
+			"image": "https://i.scdn.co/image/ab67616d00004851025dacb513f2b67e6432d56e",
+			"title": "Escapism.",
+			"artist": "RAYE, 070 Shake",
+			"album": "Escapism. / The Thrill Is Gone.",
+			"duration": "4:32"
+		},
+		{
+			"number": "69",
+			"image": "https://i.scdn.co/image/ab67616d000048514911c2e04ad114ea88b34144",
+			"title": "DANCING ALL ALONE",
+			"artist": "Clinton Kane",
+			"album": "DANCING ALL ALONE",
+			"duration": "2:51"
+		},
+		{
+			"number": "70",
+			"image": "https://i.scdn.co/image/ab67616d00004851c87fb8ff735c907745bca335",
+			"title": "Evangeline",
+			"artist": "Stephen Sanchez",
+			"album": "Evangeline",
+			"duration": "2:57"
+		},
+		{
+			"number": "71",
+			"image": "https://i.scdn.co/image/ab67616d00004851fc3ff54493fcc890bcaa036c",
+			"title": "Who We Love (feat. Ed Sheeran)",
+			"artist": "Sam Smith, Ed Sheeran",
+			"album": "Gloria",
+			"duration": "2:42"
+		},
+		{
+			"number": "72",
+			"image": "https://i.scdn.co/image/ab67616d00004851b45039e918b97eabf90afaf9",
+			"title": "Best Friend Breakup",
+			"artist": "Lauren Spencer Smith",
+			"album": "Best Friend Breakup",
+			"duration": "2:21"
+		},
+		{
+			"number": "73",
+			"image": "https://i.scdn.co/image/ab67616d0000485170dbc9f47669d120ad874ec1",
+			"title": "Low",
+			"artist": "SZA",
+			"album": "SOS",
+			"duration": "3:01"
+		},
+		{
+			"number": "74",
+			"image": "https://i.scdn.co/image/ab67616d00004851c408382e663090857acb699b",
+			"title": "3 Boys",
+			"artist": "Omar Apollo",
+			"album": "3 Boys",
+			"duration": "3:29"
+		},
+		{
+			"number": "75",
+			"image": "https://i.scdn.co/image/ab67616d00004851bb54dde68cd23e2a268ae0f5",
+			"title": "Lavender Haze",
+			"artist": "Taylor Swift",
+			"album": "Midnights",
+			"duration": "3:22"
+		},
+		{
+			"number": "76",
+			"image": "https://i.scdn.co/image/ab67616d00004851d001b254e7af7e9a699f7e8e",
+			"title": "Where do we go now?",
+			"artist": "Gracie Abrams",
+			"album": "Where do we go now?",
+			"duration": "4:03"
+		},
+		{
+			"number": "77",
+			"image": "https://i.scdn.co/image/ab67616d00004851ad783ef03c9c5447fe736208",
+			"title": "a little more time",
+			"artist": "ROLE MODEL",
+			"album": "a little more time",
+			"duration": "3:30"
+		},
+		{
+			"number": "78",
+			"image": "https://i.scdn.co/image/ab67616d000048516ed08d0c5662b0c7eda7a300",
+			"title": "Saturday/Sunday",
+			"artist": "Jason Derulo, David Guetta",
+			"album": "Saturday/Sunday",
+			"duration": "2:46"
+		},
+		{
+			"number": "79",
+			"image": "https://i.scdn.co/image/ab67616d00004851e5c4776d41fd00198193ae53",
+			"title": "GOSSIP (feat. Tom Morello)",
+			"artist": "M�neskin, Tom Morello",
+			"album": "GOSSIP (feat. Tom Morello)",
+			"duration": "2:48"
+		},
+		{
+			"number": "80",
+			"image": "https://i.scdn.co/image/ab67616d000048517a1b61448054bd2f97406822",
+			"title": "Back To You",
+			"artist": "Lost Frequencies, Elley Duh�, X Ambassadors",
+			"album": "Back To You",
+			"duration": "2:37"
+		},
+		{
+			"number": "81",
+			"image": "https://i.scdn.co/image/ab67616d00004851781904f69fd550c19e6e3b55",
+			"title": "My Mind & Me",
+			"artist": "Selena Gomez",
+			"album": "My Mind & Me",
+			"duration": "2:27"
+		},
+		{
+			"number": "82",
+			"image": "https://i.scdn.co/image/ab67616d00004851716ce442c21d31fb597e900e",
+			"title": "Too Late (with AJR)",
+			"artist": "Quinn XCII, AJR",
+			"album": "The People's Champ",
+			"duration": "2:55"
+		},
+		{
+			"number": "83",
+			"image": "https://i.scdn.co/image/ab67616d00004851bb54dde68cd23e2a268ae0f5",
+			"title": "Midnight Rain",
+			"artist": "Taylor Swift",
+			"album": "Midnights",
+			"duration": "2:54"
+		},
+		{
+			"number": "84",
+			"image": "https://i.scdn.co/image/ab67616d000048516ee35072df1af802cca09918",
+			"title": "Stick Season",
+			"artist": "Noah Kahan",
+			"album": "Stick Season",
+			"duration": "3:02"
+		},
+		{
+			"number": "85",
+			"image": "https://i.scdn.co/image/ab67616d000048514fd2d2a9e90bf7d20cc5a354",
+			"title": "blame's on me",
+			"artist": "Alexander Stewart",
+			"album": "blame's on me",
+			"duration": "2:18"
+		}
+	]
+}

@@ -1,8 +1,11 @@
 import React, { useState, useEffect, useRef } from "react";
 import Playlists from "./Playlists";
+import Playlist from "./Playlist";
 import Songs from "./Songs";
+import PlaybackWrapper from "./PlaybackWrapper";
+import RecommendedGenres from "./RecommendedGenres";
 import useScript from "../hooks/useScript";
-function Rowx2({ Customize, Row }) {
+function Rowx2({ Customize, Row, setContext, setPlaylist, playlist }) {
 	const [divisionClicked, setDivisionClicked] = useState(false);
 	const [width, setWidth] = useState(0);
 	const [widthA, setWidthA] = useState(0);
@@ -62,12 +65,6 @@ function Rowx2({ Customize, Row }) {
 									  }
 							}
 						>
-							<div className="component-header">
-								<h2 className="component-header-text">
-									{type} {id}
-								</h2>
-								<div className="component-header-decoration"></div>
-							</div>
 							{getComponent({ type })}
 						</div>
 						{index === 0 && index !== Row.length - 1 && (
@@ -91,10 +88,35 @@ function Rowx2({ Customize, Row }) {
 	function getComponent(object) {
 		switch (object.type) {
 			case "Playlists":
-				return <Playlists dragDisabled={Customize}></Playlists>;
+				return (
+					<Playlists
+						dragDisabled={Customize}
+						setContext={setContext}
+						setPlaylist={setPlaylist}
+					></Playlists>
+				);
+			case "Playlist":
+				return (
+					<Playlist
+						dragDisabled={Customize}
+						setPlaylist={setPlaylist}
+						playlist={playlist}
+					></Playlist>
+				);
 			case "Songs":
 				return <Songs dragDisabled={Customize}></Songs>;
 				break;
+			case "RecommendedGenres":
+				return (
+					<RecommendedGenres
+						dragDisabled={Customize}
+						setContext={setContext}
+						setPlaylist={setPlaylist}
+					></RecommendedGenres>
+				);
+				break;
+			case "PlaybackWrapper":
+				return <PlaybackWrapper setContext={setContext}></PlaybackWrapper>;
 		}
 	}
 }
